@@ -1,1 +1,6 @@
-# my-config-mac-bash-vscode
+my mac setup
+
+mac configuration
+dev apps / configuration
+utilities
+vscode extensions
