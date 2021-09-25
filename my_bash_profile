@@ -118,14 +118,35 @@ EMOJI=${emojis[$RANDOM % ${#emojis[@]} ]}
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
-alias o='open .'
 
+# folder/dev
+alias o='open .'
+alias c='cd ..'
+
+# node
+alias nd='npm run dev'
+alias ns='npm run ns'
+
+# git
 alias gi='git init'
 alias ga='git add'
 alias gaa='git add .'
 alias gs='git status'
 alias gc='git commit'
-alias pull='git pull'
-alias push='git push'
+alias gp='git pull'
+alias gph='git push'
 alias gcm='git commit -m'
+alias gnb='git branch -m'
+alias gb='git branch -M'
+alias gl='git log'
+
+# truffle
+alias ti='truffle init .'
+alias te='truffle exec'
+alias tm='truffle migrate --reset-all compile-all'
+
+# heroku
+
+
 # alias gco='f(){ echo before "$@" after;  unset -f f; }; f'
+
