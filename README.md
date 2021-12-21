@@ -4,6 +4,3 @@ mac configuration
 dev apps / configuration
 utilities
 vscode extensions
-
-.
-
