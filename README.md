@@ -7,7 +7,7 @@
 
 -------------------
 
-[VSCODE EXTENSIONS]
+<h3>[VSCODE EXTENSIONS]</h3>
 
 - vscode-styled-components // for styled components snippets
 - ES7 React/Redux/GraphQL/React-Native snippets // includes rafc
