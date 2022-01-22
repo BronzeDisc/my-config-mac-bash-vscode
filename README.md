@@ -23,4 +23,7 @@
 - vscode-styled-components to get suggestions on react components
 - Color Picker for VS Code //shows colors aside from name, easy to pick 
 - Live Server
-
+- Reactjs code snippets
+- French Language Pack for Visual Studio Code
+- Solidity
+- Color Highlight
