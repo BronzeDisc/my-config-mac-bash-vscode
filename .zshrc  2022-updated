@@ -160,12 +160,16 @@ alias CLAER='clear'
 alias lear='clear'
 alias celar='clear'
 alias CELAR='clear' 
+alias lear='clear'
+alias LEAR='clear'
 
 
 
 # node
 alias nd='npm run dev'
 alias ns='npm run ns'
+alias ec='echo "node_modules" >> .gitignore && echo ".env" >> .gitignore'
+
 
 # git
 alias gi='git init'
@@ -179,7 +183,9 @@ alias gcm='git commit -m'
 alias gnb='git branch -m'
 alias gb='git branch -M'
 alias gl='git log'
-alias gm='git commit "git commit -m 'checkpoint :sparkles:'"'
+alias gm='git commit -m "checkpoint :sparkles:"'
+alias gmm='git commit -m ":balloon::balloon::balloon:"'
+alias gms='git commit -m ":book::book: studies :book::book:"'
 alias gps='git push origin main'
 
 
@@ -197,3 +203,5 @@ plugins=(auto-cd)
 
 
 # alias gco='f(){ echo before "$@" after;  unset -f f; }; f'
+autoload -Uz compinit && compinit
+fpath=(~/.zsh/completions $fpath)
