@@ -1,11 +1,10 @@
 {
   "window.zoomLevel": 2,
   "workbench.iconTheme": "material-icon-theme",
-  INSTALL ANONYMOUS PRO FONT
   "editor.fontFamily": "Anonymous Pro, Anonymous Pro B ,monospace,Menlo, Monaco, 'Courier New'",
   "terminal.integrated.fontFamily": "Anonymous Pro, Anonymous Pro B ,monospace,Menlo, Monaco, 'Courier New'",
-  "editor.fontSize": 14.4,
-  "terminal.integrated.fontSize": 15,
+  "editor.fontSize": 14.2,
+  "terminal.integrated.fontSize": 15.5,
 
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
@@ -18,21 +17,22 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
-  // "typescript.format.enable": true,
-  // "[typescript]": {
-  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
-  // },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
-  // "editor.codeActionsOnSave": {
-  //   "source.fixAll": true,
-  //   "source.fixAll.eslint": true
-  // },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
-  "workbench.colorTheme": "Just Black",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "editor.minimap.enabled": false,
   //wrapping words
   "editor.wordWrap": "wordWrapColumn",
-  "editor.wordWrapColumn": 85,
+  "editor.wordWrapColumn": 90,
   "files.trimTrailingWhitespace": true,
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "workbench.colorTheme": "Just Black"
 }
