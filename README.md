@@ -27,3 +27,5 @@
 - French Language Pack for Visual Studio Code
 - Solidity
 - Color Highlight
+- Auto Rename Tag // renames the closing tag when the first one is changed
+-
